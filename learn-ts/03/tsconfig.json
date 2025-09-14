@@ -41,5 +41,5 @@
     "esModuleInterop": true,
     "skipLibCheck": true
   },
-  "include": ["src", "../03/src/ex1.ts"]
+  "include": ["src"]
 }

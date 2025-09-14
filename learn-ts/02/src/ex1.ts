@@ -1,4 +1,4 @@
-// *문제 1: 두 수의 합을 구하는 함수
+// 문제 1: 두 수의 합을 구하는 함수
 // 다음과 같은 `add` 함수가 있습니다. `add` 함수는 두 개의 숫자(`a`, `b`)를 받아 그 합을 반환합니다. 적절한 타입을 붙여서 함수 정의를 하고, 두 개의 숫자를 넘겨서 호출하고 결과를 출력해보세요.
 
 // 함수 정의
@@ -57,12 +57,12 @@ console.log(result2); // 5
 // 문제 5: 두 수를 곱하는 함수
 // `multiply` 함수는 두 숫자(`a`, `b`)를 받아 그들의 곱을 반환하는 함수입니다. 매개변수와 반환값의 타입을 적절히 지정하고, 함수를 호출하여 결과를 출력해보세요.
 
-// // 함수 정의
+// 함수 정의
 const multiply = (a: number, b: number): number => {
   return a * b;
 };
 
-// // 함수 호출
+// 함수 호출
 const product = multiply(4, 5);
 console.log(product); // 20
 
@@ -71,12 +71,12 @@ console.log(product); // 20
 // 문제 6: 문자열과 숫자를 결합하는 함수
 // `concatStringAndNumber` 함수는 문자열(`a`)과 숫자(`b`)를 받아 그 합을 문자열로 반환합니다. 매개변수의 타입을 적절히 지정하고, 함수를 호출해보세요.
 
-// // 함수 정의
+// 함수 정의
 const concatStringAndNumber = (a: string, b: number): string => {
   return a + b;
 };
 
-// // 함수 호출
+// 함수 호출
 const result3 = concatStringAndNumber("Hello", 10);
 console.log(result3); // "Hello10"
 
